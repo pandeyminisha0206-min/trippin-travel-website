@@ -1,0 +1,3656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Trippin | Explore The World</title>
+
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================
+     NAVBAR
+========================================= -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+
+        <!-- Logo -->
+
+        <a href="#home"
+           class="logo">
+
+            <i class="fa-solid fa-plane-departure"></i>
+
+            <span>Trippin</span>
+
+        </a>
+
+
+        <!-- Navigation -->
+
+        <nav class="nav-menu">
+
+            <a href="#home"
+               class="nav-link active">
+                Home
+            </a>
+
+            <a href="#destinations"
+               class="nav-link">
+                Destinations
+            </a>
+
+            <a href="#packages"
+               class="nav-link">
+                Packages
+            </a>
+
+            <a href="#offers"
+               class="nav-link">
+                Offers
+            </a>
+
+            <a href="#gallery"
+               class="nav-link">
+                Gallery
+            </a>
+
+            <a href="#reviews"
+               class="nav-link">
+                Reviews
+            </a>
+
+            <a href="#about"
+               class="nav-link">
+                About
+            </a>
+
+            <a href="#contact"
+               class="nav-link">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <!-- Book Now -->
+
+        <a href="#contact"
+           class="nav-book-btn">
+
+            Book Now
+
+        </a>
+
+
+        <!-- Mobile Menu -->
+
+        <button class="menu-toggle">
+
+            <i class="fa-solid fa-bars"></i>
+
+        </button>
+
+
+    </div>
+
+</header>
+
+
+
+<!-- =========================================
+     HERO
+========================================= -->
+
+<section class="hero"
+         id="home">
+
+
+    <div class="hero-overlay"></div>
+
+
+    <div class="hero-content">
+
+
+        <p class="hero-subtitle">
+
+            <i class="fa-solid fa-earth-americas"></i>
+
+            YOUR JOURNEY STARTS HERE
+
+        </p>
+
+
+        <h1>
+
+            Explore The World.
+
+            <span>
+                Create Memories.
+            </span>
+
+        </h1>
+
+
+        <p class="hero-description">
+
+            Discover breathtaking destinations,
+            unforgettable experiences, and
+            incredible adventures around the world.
+
+            Your next journey is just one click away.
+
+        </p>
+
+
+        <div class="hero-buttons">
+
+
+            <a href="#destinations"
+               class="btn btn-primary">
+
+                Explore Now
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+
+            <a href="#contact"
+               class="btn btn-outline">
+
+                Book Your Trip
+
+                <i class="fa-solid fa-paper-plane"></i>
+
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================================
+     SEARCH
+========================================= -->
+
+<section class="search-section">
+
+
+    <div class="search-container">
+
+
+        <div class="search-header">
+
+            <p>
+
+                <i class="fa-solid fa-sparkles"></i>
+
+                AI TRAVEL SEARCH
+
+            </p>
+
+
+            <h2>
+
+                Find Your Next Adventure
+
+            </h2>
+
+        </div>
+
+
+        <form class="travel-search-form"
+              id="travelSearchForm">
+
+
+            <div class="search-field">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <div>
+
+                    <label>
+                        Destination
+                    </label>
+
+                    <input
+                        type="text"
+                        id="destinationInput"
+                        placeholder="Where do you want to go?"
+                    >
+
+                </div>
+
+            </div>
+
+
+
+            <div class="search-field">
+
+                <i class="fa-solid fa-calendar-days"></i>
+
+                <div>
+
+                    <label>
+                        Travel Date
+                    </label>
+
+                    <input
+                        type="date"
+                        id="travelDate"
+                    >
+
+                </div>
+
+            </div>
+
+
+
+            <div class="search-field">
+
+                <i class="fa-solid fa-users"></i>
+
+                <div>
+
+                    <label>
+                        Travelers
+                    </label>
+
+                    <select id="travelers">
+
+                        <option value="">
+                            Select
+                        </option>
+
+                        <option value="1">
+                            1 Traveler
+                        </option>
+
+                        <option value="2">
+                            2 Travelers
+                        </option>
+
+                        <option value="3">
+                            3 Travelers
+                        </option>
+
+                        <option value="4">
+                            4 Travelers
+                        </option>
+
+                        <option value="5">
+                            5+ Travelers
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+
+            <button
+                type="submit"
+                class="search-btn">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                Search
+
+            </button>
+
+
+        </form>
+
+
+        <div class="search-message"
+             id="searchMessage">
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================================
+     POPULAR DESTINATIONS
+========================================= -->
+
+<section class="destinations-section"
+         id="destinations">
+
+
+    <!-- Section Heading -->
+
+    <div class="section-heading">
+
+
+        <p class="section-tag">
+
+            <i class="fa-solid fa-location-dot"></i>
+
+            EXPLORE THE WORLD
+
+        </p>
+
+
+        <h2>
+
+            Popular
+
+            <span>
+                Destinations
+            </span>
+
+        </h2>
+
+
+        <p class="section-description">
+
+            Discover breathtaking places around
+            the world and find your next
+            unforgettable adventure.
+
+        </p>
+
+
+    </div>
+
+
+
+    <!-- Destination Filters -->
+
+    <div class="destination-filters">
+
+
+        <button
+            class="destination-filter active"
+            data-category="all">
+
+            All
+
+        </button>
+
+
+        <button
+            class="destination-filter"
+            data-category="beach">
+
+            Beaches
+
+        </button>
+
+
+        <button
+            class="destination-filter"
+            data-category="mountain">
+
+            Mountains
+
+        </button>
+
+
+        <button
+            class="destination-filter"
+            data-category="city">
+
+            Cities
+
+        </button>
+
+
+    </div>
+
+
+
+    <!-- Destination Cards -->
+
+    <div class="destinations-grid">
+
+
+
+        <!-- MALDIVES -->
+
+        <div class="destination-card"
+             data-category="beach">
+
+
+            <div class="destination-image">
+
+
+                <img
+                    src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=900&q=80"
+                    alt="Maldives">
+
+
+                <div class="destination-rating">
+
+                    <i class="fa-solid fa-star"></i>
+
+                    4.9
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="destination-content">
+
+
+                <p class="destination-country">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    Maldives
+
+                </p>
+
+
+                <h3>
+
+                    Maldives
+
+                </h3>
+
+
+                <p>
+
+                    Escape to crystal-clear waters,
+                    white sandy beaches, and
+                    luxurious island experiences.
+
+                </p>
+
+
+                <button
+                    class="explore-destination">
+
+                    Explore
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </button>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- PARIS -->
+
+        <div class="destination-card"
+             data-category="city">
+
+
+            <div class="destination-image">
+
+
+                <img
+                    src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=80"
+                    alt="Paris">
+
+
+                <div class="destination-rating">
+
+                    <i class="fa-solid fa-star"></i>
+
+                    4.8
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="destination-content">
+
+
+                <p class="destination-country">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    France
+
+                </p>
+
+
+                <h3>
+
+                    Paris
+
+                </h3>
+
+
+                <p>
+
+                    Experience romantic streets,
+                    iconic architecture, art,
+                    culture, and delicious cuisine.
+
+                </p>
+
+
+                <button
+                    class="explore-destination">
+
+                    Explore
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </button>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- SWISS ALPS -->
+
+        <div class="destination-card"
+             data-category="mountain">
+
+
+            <div class="destination-image">
+
+
+                <img
+                    src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7?auto=format&fit=crop&w=900&q=80"
+                    alt="Swiss Alps">
+
+
+                <div class="destination-rating">
+
+                    <i class="fa-solid fa-star"></i>
+
+                    4.9
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="destination-content">
+
+
+                <p class="destination-country">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    Switzerland
+
+                </p>
+
+
+                <h3>
+
+                    Swiss Alps
+
+                </h3>
+
+
+                <p>
+
+                    Explore majestic mountains,
+                    peaceful valleys, and breathtaking
+                    alpine landscapes.
+
+                </p>
+
+
+                <button
+                    class="explore-destination">
+
+                    Explore
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </button>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- DUBAI -->
+
+        <div class="destination-card"
+             data-category="city">
+
+
+            <div class="destination-image">
+
+
+                <img
+                    src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=900&q=80"
+                    alt="Dubai">
+
+
+                <div class="destination-rating">
+
+                    <i class="fa-solid fa-star"></i>
+
+                    4.8
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="destination-content">
+
+
+                <p class="destination-country">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    United Arab Emirates
+
+                </p>
+
+
+                <h3>
+
+                    Dubai
+
+                </h3>
+
+
+                <p>
+
+                    Experience futuristic architecture,
+                    luxury shopping, and unforgettable
+                    desert adventures.
+
+                </p>
+
+
+                <button
+                    class="explore-destination">
+
+                    Explore
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </button>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================================
+     TEMPORARY SECTIONS
+========================================= -->
+
+<!-- =========================================
+     TRAVEL PACKAGES
+========================================= -->
+
+<section class="packages-section"
+         id="packages">
+
+
+    <!-- Section Heading -->
+
+    <div class="section-heading">
+
+        <p class="section-tag">
+
+            <i class="fa-solid fa-suitcase-rolling"></i>
+
+            CURATED JOURNEYS
+
+        </p>
+
+
+        <h2>
+
+            Explore Our
+
+            <span>
+                Travel Packages
+            </span>
+
+        </h2>
+
+
+        <p class="section-description">
+
+            Carefully designed journeys created
+            to give you unforgettable experiences
+            around the world.
+
+        </p>
+
+    </div>
+
+
+
+    <!-- Package Filters -->
+
+    <div class="package-filters">
+
+        <button
+            class="package-filter active"
+            data-package-category="all">
+
+            All Packages
+
+        </button>
+
+
+        <button
+            class="package-filter"
+            data-package-category="beach">
+
+            Beach
+
+        </button>
+
+
+        <button
+            class="package-filter"
+            data-package-category="city">
+
+            City
+
+        </button>
+
+
+        <button
+            class="package-filter"
+            data-package-category="adventure">
+
+            Adventure
+
+        </button>
+
+    </div>
+
+
+
+    <!-- Packages Grid -->
+
+    <div class="packages-grid">
+
+
+
+        <!-- PACKAGE 1 -->
+
+        <div class="package-card"
+             data-package-category="beach">
+
+
+            <div class="package-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=900&q=80"
+                    alt="Bali Travel Package">
+
+
+                <div class="package-badge">
+
+                    BEST SELLER
+
+                </div>
+
+
+                <div class="package-rating">
+
+                    <i class="fa-solid fa-star"></i>
+
+                    4.9
+
+                </div>
+
+            </div>
+
+
+
+            <div class="package-content">
+
+
+                <div class="package-location">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    Bali, Indonesia
+
+                </div>
+
+
+                <h3>
+
+                    Bali Paradise Escape
+
+                </h3>
+
+
+                <p>
+
+                    Experience tropical beaches,
+                    ancient temples, lush rice terraces,
+                    and unforgettable sunsets.
+
+                </p>
+
+
+                <div class="package-info">
+
+                    <span>
+
+                        <i class="fa-regular fa-clock"></i>
+
+                        7 Days
+
+                    </span>
+
+
+                    <strong>
+
+                        $899
+
+                    </strong>
+
+                </div>
+
+
+                <div class="package-buttons">
+
+
+                    <button
+                        class="package-details-btn"
+                        data-package="bali">
+
+                        View Details
+
+                    </button>
+
+
+                    <button
+                        class="package-book-btn"
+                        data-booking="Bali Paradise Escape">
+
+                        Book Now
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </button>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- PACKAGE 2 -->
+
+        <div class="package-card"
+             data-package-category="city">
+
+
+            <div class="package-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=80"
+                    alt="Paris Travel Package">
+
+
+                <div class="package-badge">
+
+                    ROMANTIC
+
+                </div>
+
+
+                <div class="package-rating">
+
+                    <i class="fa-solid fa-star"></i>
+
+                    4.8
+
+                </div>
+
+            </div>
+
+
+
+            <div class="package-content">
+
+
+                <div class="package-location">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    Paris, France
+
+                </div>
+
+
+                <h3>
+
+                    Paris Romantic Escape
+
+                </h3>
+
+
+                <p>
+
+                    Discover iconic landmarks,
+                    romantic streets, world-class art,
+                    and authentic French cuisine.
+
+                </p>
+
+
+                <div class="package-info">
+
+                    <span>
+
+                        <i class="fa-regular fa-clock"></i>
+
+                        5 Days
+
+                    </span>
+
+
+                    <strong>
+
+                        $1,199
+
+                    </strong>
+
+                </div>
+
+
+                <div class="package-buttons">
+
+
+                    <button
+                        class="package-details-btn"
+                        data-package="paris">
+
+                        View Details
+
+                    </button>
+
+
+                    <button
+                        class="package-book-btn"
+                        data-booking="Paris Romantic Escape">
+
+                        Book Now
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </button>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- PACKAGE 3 -->
+
+        <div class="package-card"
+             data-package-category="adventure">
+
+
+            <div class="package-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1509600110300-21b9d5fedeb7?auto=format&fit=crop&w=900&q=80"
+                    alt="Switzerland Travel Package">
+
+
+                <div class="package-badge">
+
+                    ADVENTURE
+
+                </div>
+
+
+                <div class="package-rating">
+
+                    <i class="fa-solid fa-star"></i>
+
+                    4.9
+
+                </div>
+
+            </div>
+
+
+
+            <div class="package-content">
+
+
+                <div class="package-location">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    Switzerland
+
+                </div>
+
+
+                <h3>
+
+                    Swiss Alpine Adventure
+
+                </h3>
+
+
+                <p>
+
+                    Explore snow-covered mountains,
+                    peaceful villages, scenic train rides,
+                    and breathtaking alpine views.
+
+                </p>
+
+
+                <div class="package-info">
+
+                    <span>
+
+                        <i class="fa-regular fa-clock"></i>
+
+                        8 Days
+
+                    </span>
+
+
+                    <strong>
+
+                        $1,499
+
+                    </strong>
+
+                </div>
+
+
+                <div class="package-buttons">
+
+
+                    <button
+                        class="package-details-btn"
+                        data-package="switzerland">
+
+                        View Details
+
+                    </button>
+
+
+                    <button
+                        class="package-book-btn"
+                        data-booking="Swiss Alpine Adventure">
+
+                        Book Now
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </button>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- PACKAGE 4 -->
+
+        <div class="package-card"
+             data-package-category="beach">
+
+
+            <div class="package-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=900&q=80"
+                    alt="Maldives Travel Package">
+
+
+                <div class="package-badge">
+
+                    LUXURY
+
+                </div>
+
+
+                <div class="package-rating">
+
+                    <i class="fa-solid fa-star"></i>
+
+                    5.0
+
+                </div>
+
+            </div>
+
+
+
+            <div class="package-content">
+
+
+                <div class="package-location">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    Maldives
+
+                </div>
+
+
+                <h3>
+
+                    Maldives Luxury Retreat
+
+                </h3>
+
+
+                <p>
+
+                    Relax in an overwater villa,
+                    enjoy crystal-clear lagoons,
+                    and experience ultimate island luxury.
+
+                </p>
+
+
+                <div class="package-info">
+
+                    <span>
+
+                        <i class="fa-regular fa-clock"></i>
+
+                        6 Days
+
+                    </span>
+
+
+                    <strong>
+
+                        $1,799
+
+                    </strong>
+
+                </div>
+
+
+                <div class="package-buttons">
+
+
+                    <button
+                        class="package-details-btn"
+                        data-package="maldives">
+
+                        View Details
+
+                    </button>
+
+
+                    <button
+                        class="package-book-btn"
+                        data-booking="Maldives Luxury Retreat">
+
+                        Book Now
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </button>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================================
+     PACKAGE DETAILS MODAL
+========================================= -->
+
+<div class="package-modal"
+     id="packageModal">
+
+
+    <div class="package-modal-content">
+
+
+        <!-- Close -->
+
+        <button
+            class="modal-close"
+            id="packageModalClose">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+
+
+        <!-- Modal Image -->
+
+        <div class="modal-image">
+
+            <img
+                id="modalPackageImage"
+                src=""
+                alt="Travel Package">
+
+        </div>
+
+
+
+        <!-- Modal Details -->
+
+        <div class="modal-details">
+
+
+            <p class="modal-location"
+               id="modalPackageLocation">
+
+            </p>
+
+
+            <h2 id="modalPackageName">
+
+            </h2>
+
+
+            <div class="modal-price-row">
+
+
+                <span id="modalPackageDuration">
+
+                </span>
+
+
+                <strong id="modalPackagePrice">
+
+                </strong>
+
+
+            </div>
+
+
+            <p id="modalPackageDescription"
+               class="modal-description">
+
+            </p>
+
+
+
+            <!-- Itinerary -->
+
+            <div class="modal-section">
+
+
+                <h3>
+
+                    <i class="fa-solid fa-route"></i>
+
+                    Itinerary
+
+                </h3>
+
+
+                <ul id="modalItinerary">
+
+                </ul>
+
+
+            </div>
+
+
+
+            <!-- Included -->
+
+            <div class="modal-section">
+
+
+                <h3>
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    What's Included
+
+                </h3>
+
+
+                <ul id="modalIncluded">
+
+                </ul>
+
+
+            </div>
+
+
+
+            <!-- Excluded -->
+
+            <div class="modal-section">
+
+
+                <h3>
+
+                    <i class="fa-solid fa-circle-xmark"></i>
+
+                    What's Excluded
+
+                </h3>
+
+
+                <ul id="modalExcluded">
+
+                </ul>
+
+
+            </div>
+
+
+
+            <button
+                class="modal-book-btn"
+                id="modalBookBtn">
+
+                Book This Package
+
+                <i class="fa-solid fa-paper-plane"></i>
+
+            </button>
+
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+
+<!-- =========================================
+     FEATURED OFFERS
+========================================= -->
+
+<section class="offers-section"
+         id="offers">
+
+
+    <!-- Section Heading -->
+
+    <div class="section-heading">
+
+        <p class="section-tag">
+
+            <i class="fa-solid fa-bolt"></i>
+
+            LIMITED TIME DEALS
+
+        </p>
+
+
+        <h2>
+
+            Featured
+
+            <span>
+                Offers
+            </span>
+
+        </h2>
+
+
+        <p class="section-description">
+
+            Unlock exclusive travel deals and
+            start planning your dream vacation
+            before these offers disappear.
+
+        </p>
+
+    </div>
+
+
+
+    <!-- Offers Grid -->
+
+    <div class="offers-grid">
+
+
+
+        <!-- OFFER 1 -->
+
+        <div class="offer-card">
+
+
+            <div class="offer-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1000&q=85"
+                    alt="Bali Offer">
+
+
+                <div class="discount-badge">
+
+                    25% OFF
+
+                </div>
+
+
+                <div class="offer-overlay">
+
+                    <span>
+
+                        LIMITED OFFER
+
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="offer-content">
+
+
+                <div class="offer-top">
+
+                    <span class="offer-location">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        Bali, Indonesia
+
+                    </span>
+
+
+                    <span class="offer-code">
+
+                        TRIP25
+
+                    </span>
+
+                </div>
+
+
+                <h3>
+
+                    Tropical Bali Escape
+
+                </h3>
+
+
+                <p>
+
+                    Discover Bali's tropical beaches,
+                    ancient temples, and breathtaking
+                    sunsets with an exclusive discount.
+
+                </p>
+
+
+
+                <!-- Countdown -->
+
+                <div class="countdown-container">
+
+
+                    <p>
+
+                        <i class="fa-regular fa-clock"></i>
+
+                        Offer Ends In
+
+                    </p>
+
+
+                    <div class="countdown"
+                         data-end="2026-12-31T23:59:59">
+
+                        <div>
+
+                            <strong class="days">
+                                00
+                            </strong>
+
+                            <span>
+                                Days
+                            </span>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong class="hours">
+                                00
+                            </strong>
+
+                            <span>
+                                Hours
+                            </span>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong class="minutes">
+                                00
+                            </strong>
+
+                            <span>
+                                Min
+                            </span>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong class="seconds">
+                                00
+                            </strong>
+
+                            <span>
+                                Sec
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="offer-bottom">
+
+
+                    <div>
+
+                        <span class="old-price">
+
+                            $1,199
+
+                        </span>
+
+
+                        <strong class="new-price">
+
+                            $899
+
+                        </strong>
+
+                    </div>
+
+
+                    <button
+                        class="offer-book-btn"
+                        data-booking="Tropical Bali Escape">
+
+                        Book Now
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </button>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- OFFER 2 -->
+
+        <div class="offer-card">
+
+
+            <div class="offer-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1509600110300-21b9d5fedeb7?auto=format&fit=crop&w=1000&q=85"
+                    alt="Switzerland Offer">
+
+
+                <div class="discount-badge">
+
+                    30% OFF
+
+                </div>
+
+
+                <div class="offer-overlay">
+
+                    <span>
+
+                        ADVENTURE DEAL
+
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="offer-content">
+
+
+                <div class="offer-top">
+
+                    <span class="offer-location">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        Switzerland
+
+                    </span>
+
+
+                    <span class="offer-code">
+
+                        ALPS30
+
+                    </span>
+
+                </div>
+
+
+                <h3>
+
+                    Swiss Alpine Adventure
+
+                </h3>
+
+
+                <p>
+
+                    Experience majestic mountains,
+                    scenic train journeys, and
+                    unforgettable alpine landscapes.
+
+                </p>
+
+
+
+                <!-- Countdown -->
+
+                <div class="countdown-container">
+
+
+                    <p>
+
+                        <i class="fa-regular fa-clock"></i>
+
+                        Offer Ends In
+
+                    </p>
+
+
+                    <div class="countdown"
+                         data-end="2026-11-30T23:59:59">
+
+                        <div>
+
+                            <strong class="days">
+                                00
+                            </strong>
+
+                            <span>
+                                Days
+                            </span>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong class="hours">
+                                00
+                            </strong>
+
+                            <span>
+                                Hours
+                            </span>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong class="minutes">
+                                00
+                            </strong>
+
+                            <span>
+                                Min
+                            </span>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong class="seconds">
+                                00
+                            </strong>
+
+                            <span>
+                                Sec
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="offer-bottom">
+
+
+                    <div>
+
+                        <span class="old-price">
+
+                            $1,999
+
+                        </span>
+
+
+                        <strong class="new-price">
+
+                            $1,399
+
+                        </strong>
+
+                    </div>
+
+
+                    <button
+                        class="offer-book-btn"
+                        data-booking="Swiss Alpine Adventure">
+
+                        Book Now
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </button>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- OFFER 3 -->
+
+        <div class="offer-card">
+
+
+            <div class="offer-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=1000&q=85"
+                    alt="Maldives Offer">
+
+
+                <div class="discount-badge">
+
+                    20% OFF
+
+                </div>
+
+
+                <div class="offer-overlay">
+
+                    <span>
+
+                        LUXURY DEAL
+
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="offer-content">
+
+
+                <div class="offer-top">
+
+                    <span class="offer-location">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        Maldives
+
+                    </span>
+
+
+                    <span class="offer-code">
+
+                        OCEAN20
+
+                    </span>
+
+                </div>
+
+
+                <h3>
+
+                    Maldives Luxury Escape
+
+                </h3>
+
+
+                <p>
+
+                    Relax in a private island paradise
+                    with crystal-clear water and
+                    luxurious overwater villas.
+
+                </p>
+
+
+
+                <!-- Countdown -->
+
+                <div class="countdown-container">
+
+
+                    <p>
+
+                        <i class="fa-regular fa-clock"></i>
+
+                        Offer Ends In
+
+                    </p>
+
+
+                    <div class="countdown"
+                         data-end="2026-10-31T23:59:59">
+
+                        <div>
+
+                            <strong class="days">
+                                00
+                            </strong>
+
+                            <span>
+                                Days
+                            </span>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong class="hours">
+                                00
+                            </strong>
+
+                            <span>
+                                Hours
+                            </span>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong class="minutes">
+                                00
+                            </strong>
+
+                            <span>
+                                Min
+                            </span>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong class="seconds">
+                                00
+                            </strong>
+
+                            <span>
+                                Sec
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="offer-bottom">
+
+
+                    <div>
+
+                        <span class="old-price">
+
+                            $2,199
+
+                        </span>
+
+
+                        <strong class="new-price">
+
+                            $1,759
+
+                        </strong>
+
+                    </div>
+
+
+                    <button
+                        class="offer-book-btn"
+                        data-booking="Maldives Luxury Escape">
+
+                        Book Now
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </button>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================================
+     TRAVEL GALLERY
+========================================= -->
+
+<section class="gallery-section" id="gallery">
+
+    <!-- Section Heading -->
+
+    <div class="section-heading">
+
+        <p class="section-tag">
+
+            <i class="fa-solid fa-images"></i>
+
+            TRAVEL MOMENTS
+
+        </p>
+
+        <h2>
+
+            Explore Our
+
+            <span>
+                Gallery
+            </span>
+
+        </h2>
+
+        <p class="section-description">
+
+            A glimpse into breathtaking destinations,
+            unforgettable adventures, and beautiful
+            moments around the world.
+
+        </p>
+
+    </div>
+
+
+    <!-- Gallery Grid -->
+
+    <div class="gallery-grid">
+
+
+        <!-- IMAGE 1 -->
+
+        <div class="gallery-item">
+
+            <img
+                src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=85"
+                alt="Tropical Beach">
+
+            <div class="gallery-overlay">
+
+                <div>
+
+                    <i class="fa-solid fa-expand"></i>
+
+                    <h3>
+                        Tropical Paradise
+                    </h3>
+
+                    <p>
+                        Maldives
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- IMAGE 2 -->
+
+        <div class="gallery-item">
+
+            <img
+                src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=85"
+                alt="Mountain Landscape">
+
+            <div class="gallery-overlay">
+
+                <div>
+
+                    <i class="fa-solid fa-expand"></i>
+
+                    <h3>
+                        Mountain Escape
+                    </h3>
+
+                    <p>
+                        Switzerland
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- IMAGE 3 -->
+
+        <div class="gallery-item">
+
+            <img
+                src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1200&q=85"
+                alt="Bali Temple">
+
+            <div class="gallery-overlay">
+
+                <div>
+
+                    <i class="fa-solid fa-expand"></i>
+
+                    <h3>
+                        Island Adventure
+                    </h3>
+
+                    <p>
+                        Bali
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- IMAGE 4 -->
+
+        <div class="gallery-item">
+
+            <img
+                src="https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1200&q=85"
+                alt="Turkey">
+
+            <div class="gallery-overlay">
+
+                <div>
+
+                    <i class="fa-solid fa-expand"></i>
+
+                    <h3>
+                        Ancient Wonders
+                    </h3>
+
+                    <p>
+                        Turkey
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- IMAGE 5 -->
+
+        <div class="gallery-item">
+
+            <img
+                src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=85"
+                alt="Mountain Adventure">
+
+            <div class="gallery-overlay">
+
+                <div>
+
+                    <i class="fa-solid fa-expand"></i>
+
+                    <h3>
+                        Wild Adventure
+                    </h3>
+
+                    <p>
+                        The Alps
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- IMAGE 6 -->
+
+        <div class="gallery-item">
+
+            <img
+                src="https://images.unsplash.com/photo-1494783367193-149034c05e8f?auto=format&fit=crop&w=1200&q=85"
+                alt="Beautiful Lake">
+
+            <div class="gallery-overlay">
+
+                <div>
+
+                    <i class="fa-solid fa-expand"></i>
+
+                    <h3>
+                        Hidden Paradise
+                    </h3>
+
+                    <p>
+                        New Zealand
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     FULL SCREEN LIGHTBOX
+========================================= -->
+
+<div class="gallery-lightbox" id="galleryLightbox">
+
+    <button
+        class="lightbox-close"
+        id="lightboxClose">
+
+        <i class="fa-solid fa-xmark"></i>
+
+    </button>
+
+
+    <button
+        class="lightbox-prev"
+        id="lightboxPrev">
+
+        <i class="fa-solid fa-chevron-left"></i>
+
+    </button>
+
+
+    <div class="lightbox-content">
+
+        <img
+            id="lightboxImage"
+            src=""
+            alt="Travel Image">
+
+        <div class="lightbox-caption">
+
+            <h3 id="lightboxTitle">
+                Travel Destination
+            </h3>
+
+            <p id="lightboxLocation">
+                Explore the world
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <button
+        class="lightbox-next"
+        id="lightboxNext">
+
+        <i class="fa-solid fa-chevron-right"></i>
+
+    </button>
+
+</div>
+
+
+
+<!-- =========================================
+     CUSTOMER REVIEWS
+========================================= -->
+
+<section class="reviews-section" id="reviews">
+
+    <!-- Section Heading -->
+
+    <div class="section-heading">
+
+        <p class="section-tag">
+
+            <i class="fa-solid fa-comments"></i>
+
+            TRAVELER STORIES
+
+        </p>
+
+        <h2>
+
+            What Our
+
+            <span>
+                Travelers Say
+            </span>
+
+        </h2>
+
+        <p class="section-description">
+
+            Real experiences from travelers who
+            explored the world with Trippin.
+
+        </p>
+
+    </div>
+
+
+    <!-- Reviews Slider -->
+
+    <div class="reviews-slider">
+
+        <!-- Previous Button -->
+
+        <button
+            class="review-arrow review-prev"
+            id="reviewPrev">
+
+            <i class="fa-solid fa-chevron-left"></i>
+
+        </button>
+
+
+        <!-- Review Card -->
+
+        <div class="review-card" id="reviewCard">
+
+            <!-- Profile -->
+
+            <div class="review-profile">
+
+                <img
+                    id="reviewImage"
+                    src="https://randomuser.me/api/portraits/women/44.jpg"
+                    alt="Traveler">
+
+
+                <div>
+
+                    <h3 id="reviewName">
+
+                        Sophia Williams
+
+                    </h3>
+
+                    <p id="reviewLocation">
+
+                        New York, USA
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Stars -->
+
+            <div
+                class="review-stars"
+                id="reviewStars">
+
+                <i class="fa-solid fa-star"></i>
+
+                <i class="fa-solid fa-star"></i>
+
+                <i class="fa-solid fa-star"></i>
+
+                <i class="fa-solid fa-star"></i>
+
+                <i class="fa-solid fa-star"></i>
+
+            </div>
+
+
+            <!-- Review Text -->
+
+            <div class="review-quote">
+
+                <i class="fa-solid fa-quote-left"></i>
+
+            </div>
+
+
+            <p
+                class="review-text"
+                id="reviewText">
+
+                Trippin made our Bali vacation
+                absolutely unforgettable. Everything
+                was perfectly organized and the
+                destinations were breathtaking.
+
+            </p>
+
+
+            <!-- Trip -->
+
+            <div class="review-trip">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <span id="reviewTrip">
+
+                    Bali Escape
+
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- Next Button -->
+
+        <button
+            class="review-arrow review-next"
+            id="reviewNext">
+
+            <i class="fa-solid fa-chevron-right"></i>
+
+        </button>
+
+    </div>
+
+
+    <!-- Slider Dots -->
+
+    <div
+        class="review-dots"
+        id="reviewDots">
+
+        <span class="review-dot active"></span>
+
+        <span class="review-dot"></span>
+
+        <span class="review-dot"></span>
+
+        <span class="review-dot"></span>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     ABOUT TRIPPIN
+========================================= -->
+
+<section class="about-section" id="about">
+
+    <!-- SECTION HEADING -->
+
+    <div class="section-heading">
+
+        <p class="section-tag">
+
+            <i class="fa-solid fa-earth-americas"></i>
+
+            ABOUT TRIPPIN
+
+        </p>
+
+        <h2>
+
+            Your Journey.
+
+            <span>
+                Our Passion.
+            </span>
+
+        </h2>
+
+        <p class="section-description">
+
+            We believe travel is more than visiting
+            new places. It is about discovering new
+            cultures, creating unforgettable memories,
+            and experiencing the world in a whole new way.
+
+        </p>
+
+    </div>
+
+
+    <!-- ABOUT CONTENT -->
+
+    <div class="about-content">
+
+
+        <!-- LEFT IMAGE -->
+
+        <div class="about-image">
+
+            <div class="about-image-glow"></div>
+
+            <img
+                src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=85"
+                alt="Travel Adventure">
+
+            
+
+        </div>
+
+
+
+        <!-- RIGHT CONTENT -->
+
+        <div class="about-text">
+
+
+            <p>
+
+                At <strong>Trippin</strong>, we make
+                exploring the world simple, exciting,
+                and unforgettable.
+
+            </p>
+
+
+            <p>
+
+                From peaceful beaches and beautiful
+                mountains to vibrant cities and hidden
+                destinations, we carefully create travel
+                experiences designed for every kind of
+                explorer.
+
+            </p>
+
+
+            <!-- MISSION & VISION -->
+
+            <div class="mission-vision">
+
+
+                <!-- MISSION -->
+
+                <div class="about-info-card">
+
+                    <div class="about-icon">
+
+                        <i class="fa-solid fa-bullseye"></i>
+
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Our Mission
+                        </h3>
+
+                        <p>
+
+                            To make travel accessible,
+                            enjoyable, and memorable by
+                            connecting people with incredible
+                            destinations and experiences.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- VISION -->
+
+                <div class="about-info-card">
+
+                    <div class="about-icon">
+
+                        <i class="fa-solid fa-eye"></i>
+
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Our Vision
+                        </h3>
+
+                        <p>
+
+                            To inspire people around the
+                            world to explore more, discover
+                            more, and create memories that
+                            last a lifetime.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================================
+         WHY CHOOSE US
+    ========================================= -->
+
+    <div class="why-choose-section">
+
+
+        <div class="section-heading">
+
+            <p class="section-tag">
+
+                <i class="fa-solid fa-sparkles"></i>
+
+                WHY TRIPPIN
+
+            </p>
+
+            <h2>
+
+                Travel Better.
+
+                <span>
+                    Travel Smarter.
+                </span>
+
+            </h2>
+
+        </div>
+
+
+        <div class="why-grid">
+
+
+            <!-- CARD 1 -->
+
+            <div class="why-card">
+
+                <div class="why-icon">
+
+                    <i class="fa-solid fa-map-location-dot"></i>
+
+                </div>
+
+                <h3>
+                    Handpicked Destinations
+                </h3>
+
+                <p>
+
+                    Discover carefully selected
+                    destinations that offer unique
+                    experiences and unforgettable
+                    adventures.
+
+                </p>
+
+            </div>
+
+
+
+            <!-- CARD 2 -->
+
+            <div class="why-card">
+
+                <div class="why-icon">
+
+                    <i class="fa-solid fa-shield-heart"></i>
+
+                </div>
+
+                <h3>
+                    Safe & Trusted
+                </h3>
+
+                <p>
+
+                    Your safety and comfort are our
+                    priorities. Travel with confidence
+                    knowing every detail is carefully planned.
+
+                </p>
+
+            </div>
+
+
+
+            <!-- CARD 3 -->
+
+            <div class="why-card">
+
+                <div class="why-icon">
+
+                    <i class="fa-solid fa-headset"></i>
+
+                </div>
+
+                <h3>
+                    24/7 Travel Support
+                </h3>
+
+                <p>
+
+                    Our dedicated travel support team
+                    is always ready to help you whenever
+                    you need us.
+
+                </p>
+
+            </div>
+
+
+
+            <!-- CARD 4 -->
+
+            <div class="why-card">
+
+                <div class="why-icon">
+
+                    <i class="fa-solid fa-wallet"></i>
+
+                </div>
+
+                <h3>
+                    Best Value
+                </h3>
+
+                <p>
+
+                    Enjoy premium travel experiences
+                    with carefully designed packages
+                    that offer excellent value.
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================================
+         TRAVEL STATISTICS
+    ========================================= -->
+
+    <div class="travel-stats">
+
+
+        <!-- STAT 1 -->
+
+        <div class="stat-item">
+
+            <div class="stat-icon">
+
+                <i class="fa-solid fa-earth-americas"></i>
+
+            </div>
+
+            <h3>
+
+                <span
+                    class="counter"
+                    data-target="50">
+
+                    0
+
+                </span>
+
+                +
+
+            </h3>
+
+            <p>
+                Destinations
+            </p>
+
+        </div>
+
+
+
+        <!-- STAT 2 -->
+
+        <div class="stat-item">
+
+            <div class="stat-icon">
+
+                <i class="fa-solid fa-users"></i>
+
+            </div>
+
+            <h3>
+
+                <span
+                    class="counter"
+                    data-target="10000">
+
+                    0
+
+                </span>
+
+                +
+
+            </h3>
+
+            <p>
+                Happy Travelers
+            </p>
+
+        </div>
+
+
+
+        <!-- STAT 3 -->
+
+        <div class="stat-item">
+
+            <div class="stat-icon">
+
+                <i class="fa-solid fa-plane"></i>
+
+            </div>
+
+            <h3>
+
+                <span
+                    class="counter"
+                    data-target="250">
+
+                    0
+
+                </span>
+
+                +
+
+            </h3>
+
+            <p>
+                Travel Packages
+            </p>
+
+        </div>
+
+
+
+        <!-- STAT 4 -->
+
+        <div class="stat-item">
+
+            <div class="stat-icon">
+
+                <i class="fa-solid fa-star"></i>
+
+            </div>
+
+            <h3>
+
+                <span
+                    class="counter"
+                    data-target="98">
+
+                    0
+
+                </span>
+
+                %
+
+            </h3>
+
+            <p>
+                Customer Satisfaction
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     CONTACT SECTION
+========================================= -->
+
+<section class="contact-section" id="contact">
+
+    <!-- SECTION HEADING -->
+
+    <div class="section-heading">
+
+        <p class="section-tag">
+
+            <i class="fa-solid fa-paper-plane"></i>
+
+            GET IN TOUCH
+
+        </p>
+
+        <h2>
+
+            Let's Plan Your
+
+            <span>
+                Next Adventure
+            </span>
+
+        </h2>
+
+        <p class="section-description">
+
+            Have a destination in mind?
+            Tell us about your dream trip and
+            we'll help you turn it into reality.
+
+        </p>
+
+    </div>
+
+
+    <!-- CONTACT CONTENT -->
+
+    <div class="contact-container">
+
+
+        <!-- LEFT INFORMATION -->
+
+        <div class="contact-info">
+
+            <h3>
+                Start Your Journey
+            </h3>
+
+            <p>
+
+                Whether you're planning a relaxing
+                beach holiday, an exciting adventure,
+                or a luxury escape, we're here to help
+                you create the perfect travel experience.
+
+            </p>
+
+
+            <!-- CONTACT ITEM -->
+
+            <div class="contact-info-item">
+
+                <div class="contact-info-icon">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                </div>
+
+                <div>
+
+                    <span>
+                        Email Us
+                    </span>
+
+                    <strong>
+                        hello@trippin.com
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- CONTACT ITEM -->
+
+            <div class="contact-info-item">
+
+                <div class="contact-info-icon">
+
+                    <i class="fa-solid fa-phone"></i>
+
+                </div>
+
+                <div>
+
+                    <span>
+                        Call Us
+                    </span>
+
+                    <strong>
+                        +1 234 567 890
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- CONTACT ITEM -->
+
+            <div class="contact-info-item">
+
+                <div class="contact-info-icon">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                </div>
+
+                <div>
+
+                    <span>
+                        Visit Us
+                    </span>
+
+                    <strong>
+                         INDIA
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- SOCIAL ICONS -->
+
+            <div class="contact-socials">
+
+                <a href="#" aria-label="Instagram">
+
+                    <i class="fa-brands fa-instagram"></i>
+
+                </a>
+
+                <a href="#" aria-label="Facebook">
+
+                    <i class="fa-brands fa-facebook-f"></i>
+
+                </a>
+
+                <a href="#" aria-label="Twitter">
+
+                    <i class="fa-brands fa-x-twitter"></i>
+
+                </a>
+
+                <a href="#" aria-label="YouTube">
+
+                    <i class="fa-brands fa-youtube"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- CONTACT FORM -->
+
+        <div class="contact-form-wrapper">
+
+            <form
+                id="contactForm"
+                novalidate>
+
+
+                <!-- NAME -->
+
+                <div class="form-group">
+
+                    <label for="contactName">
+
+                        Full Name
+
+                    </label>
+
+                    <div class="input-wrapper">
+
+                        <i class="fa-solid fa-user"></i>
+
+                        <input
+                            type="text"
+                            id="contactName"
+                            placeholder="Enter your name">
+
+                    </div>
+
+                    <small
+                        class="form-error"
+                        id="nameError">
+
+                    </small>
+
+                </div>
+
+
+
+                <!-- EMAIL -->
+
+                <div class="form-group">
+
+                    <label for="contactEmail">
+
+                        Email Address
+
+                    </label>
+
+                    <div class="input-wrapper">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        <input
+                            type="email"
+                            id="contactEmail"
+                            placeholder="Enter your email">
+
+                    </div>
+
+                    <small
+                        class="form-error"
+                        id="emailError">
+
+                    </small>
+
+                </div>
+
+
+
+                <!-- PHONE -->
+
+                <div class="form-group">
+
+                    <label for="contactPhone">
+
+                        Phone Number
+
+                    </label>
+
+                    <div class="input-wrapper">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                        <input
+                            type="tel"
+                            id="contactPhone"
+                            placeholder="Enter your phone number">
+
+                    </div>
+
+                    <small
+                        class="form-error"
+                        id="phoneError">
+
+                    </small>
+
+                </div>
+
+
+
+                <!-- DESTINATION -->
+
+                <div class="form-group">
+
+                    <label for="contactDestination">
+
+                        Dream Destination
+
+                    </label>
+
+                    <div class="input-wrapper">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <input
+                            type="text"
+                            id="contactDestination"
+                            placeholder="Where do you want to go?">
+
+                    </div>
+
+                    <small
+                        class="form-error"
+                        id="destinationError">
+
+                    </small>
+
+                </div>
+
+
+
+                <!-- MESSAGE -->
+
+                <div class="form-group">
+
+                    <label for="contactMessage">
+
+                        Your Message
+
+                    </label>
+
+                    <div class="input-wrapper textarea-wrapper">
+
+                        <i class="fa-solid fa-message"></i>
+
+                        <textarea
+                            id="contactMessage"
+                            rows="5"
+                            placeholder="Tell us about your dream trip..."></textarea>
+
+                    </div>
+
+                    <small
+                        class="form-error"
+                        id="messageError">
+
+                    </small>
+
+                </div>
+
+
+
+                <!-- SUBMIT BUTTON -->
+
+                <button
+                    type="submit"
+                    class="contact-submit-btn">
+
+                    <span>
+                        Send Travel Request
+                    </span>
+
+                    <i class="fa-solid fa-paper-plane"></i>
+
+                </button>
+
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     NOTIFICATION
+========================================= -->
+
+<div
+    class="form-notification"
+    id="formNotification">
+
+    <div class="notification-icon">
+
+        <i class="fa-solid fa-check"></i>
+
+    </div>
+
+    <div>
+
+        <strong id="notificationTitle">
+
+            Success!
+
+        </strong>
+
+        <p id="notificationMessage">
+
+            Your request has been submitted.
+
+        </p>
+
+    </div>
+
+    <button
+        id="notificationClose">
+
+        <i class="fa-solid fa-xmark"></i>
+
+    </button>
+
+</div>
+
+
+
+<!-- =========================================
+     FOOTER
+========================================= -->
+
+<footer class="temporary-section">
+
+    <h2>
+        Trippin
+    </h2>
+
+    <p>
+        Explore the world. Create memories.
+    </p>
+
+    <p>
+        © 2026 Trippin. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+
+<!-- JAVASCRIPT -->
+
+<script src="script.js"></script>
+<!-- =========================================
+     FOOTER
+========================================= -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+
+        <!-- BRAND -->
+
+        <div class="footer-brand">
+
+            <a href="#home" class="footer-logo">
+
+                <i class="fa-solid fa-paper-plane"></i>
+
+                Trippin
+
+            </a>
+
+            <p>
+
+                Discover the world.
+                Experience unforgettable journeys.
+                Create memories that last forever.
+
+            </p>
+
+
+            <!-- SOCIAL MEDIA -->
+
+            <div class="footer-socials">
+
+                <a href="#" aria-label="Instagram">
+
+                    <i class="fa-brands fa-instagram"></i>
+
+                </a>
+
+                <a href="#" aria-label="Facebook">
+
+                    <i class="fa-brands fa-facebook-f"></i>
+
+                </a>
+
+                <a href="#" aria-label="Twitter">
+
+                    <i class="fa-brands fa-x-twitter"></i>
+
+                </a>
+
+                <a href="#" aria-label="YouTube">
+
+                    <i class="fa-brands fa-youtube"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- QUICK LINKS -->
+
+        <div class="footer-column">
+
+            <h3>
+                Quick Links
+            </h3>
+
+            <a href="#home">
+                Home
+            </a>
+
+            <a href="#destinations">
+                Destinations
+            </a>
+
+            <a href="#packages">
+                Packages
+            </a>
+
+            <a href="#offers">
+                Offers
+            </a>
+
+            <a href="#gallery">
+                Gallery
+            </a>
+
+            <a href="#reviews">
+                Reviews
+            </a>
+
+        </div>
+
+
+
+        <!-- POPULAR DESTINATIONS -->
+
+        <div class="footer-column">
+
+            <h3>
+                Popular Destinations
+            </h3>
+
+            <a href="#destinations">
+                Bali
+            </a>
+
+            <a href="#destinations">
+                Paris
+            </a>
+
+            <a href="#destinations">
+                Dubai
+            </a>
+
+            <a href="#destinations">
+                Switzerland
+            </a>
+
+            <a href="#destinations">
+                Maldives
+            </a>
+
+            <a href="#destinations">
+                Tokyo
+            </a>
+
+        </div>
+
+
+
+        <!-- CONTACT -->
+
+        <div class="footer-column footer-contact">
+
+            <h3>
+                Contact Us
+            </h3>
+
+            <p>
+
+                <i class="fa-solid fa-envelope"></i>
+
+                hello@trippin.com
+
+            </p>
+
+            <p>
+
+                <i class="fa-solid fa-phone"></i>
+
+                +1 234 567 890
+
+            </p>
+
+            <p>
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                New York, USA
+
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- FOOTER BOTTOM -->
+
+    <div class="footer-bottom">
+
+        <p>
+
+            © 2026
+
+            <span>
+                Trippin
+            </span>
+
+           . All Rights Reserved.
+
+        </p>
+
+        <p>
+
+            Made with
+
+            <i class="fa-solid fa-heart"></i>
+
+            for travelers.
+
+        </p>
+
+    </div>
+
+</footer>
+
+
+
+<!-- =========================================
+     SCROLL TO TOP BUTTON
+========================================= -->
+
+<button
+    class="scroll-top"
+    id="scrollTopBtn"
+    aria-label="Scroll to top">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
